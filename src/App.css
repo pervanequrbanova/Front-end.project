@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.headers{
+    background-color:#F9C365;
+    width: 100%;
+    height: 100vh;
+    
+}
+.main {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 96%;
+padding:2%;
+
+}
+.mainleft ul{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-between;
+   width: 100%;
+
+}
+ 
+
+.mainright{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:20% ; 
+    
+}
+.mainright button{
+    border: none;
+}
+.mainlogo{
+    display: flex;
+    flex-direction:row;
+    height: 20px;
+    justify-content: space-between;
+}
+.one{
+    border: none;
+    width: 36px;
+height: 56px;
+font-family: Radio Canada;
+font-size: 18px;
+font-weight: 500;
+line-height: 24.5px;
+text-align: left;
+color: #1D1D1D;
+background-color: transparent;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+
+}
+.two{
+    width: 129px;
+height: 56px;
+display: flex;
+justify-content:center;
+align-items: center;
+border-radius: 79px ;
+opacity: 0px;
+color: white;
+background-color:black;
+font-family: Radio Canada;
+font-size: 18px;
+font-weight: 500;
+line-height: 24.5px;
+text-align: left;
+
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 10%;
+    width: 100%;
+}
+.logos p{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.logos i{
+    font-family: Radley;
+font-size: 40px;
+font-style: italic;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -0.035em;
+text-align: left;
+color: #F9C365;
+width: 276px;
+height: 72px;
+background-color: black;
+border-radius: 110px ;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.logos h3{
+    font-family: Radio Canada;
+font-size: 50px;
+font-weight: 500;
+line-height: 72px;
+letter-spacing: -0.035em;
+text-align: left;
+
+}
+.text{
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.5px;
+    text-align: left;
+    width: 40%;
+
+
+color: #1D1D1D;
+}
+.text a{
+    width:184px;
+height:46px;
+font-family: Radio Canada;
+font-size: 18px;
+font-weight: 500;
+line-height: 24.5px;
+text-align: left;
+border-radius: 30px;
+border: 1px solid black;
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.maining img{
+    width: 500px;
+    height: 300px;
+}
