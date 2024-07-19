@@ -181,3 +181,149 @@ align-items: center;
     width: 100px;
     height: 100px;
 }
+.mainf{
+    width: 100%;
+    height: 90vh;
+    background-color:#FEF6E4;
+    
+}
+.mainfooter span{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: Radio Canada;
+font-size: 50px;
+font-weight: 500;
+line-height: 72px;
+letter-spacing: -0.035em;
+text-align: center;
+
+
+
+
+
+}
+.platform{
+
+    width: 175px;
+height: 72px;
+background-color: #F9C365;
+font-family: Radley;
+font-size: 40px;
+font-style: italic;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -0.035em;
+text-align: center;
+
+border-radius: 110px;
+ border: 1px solid #1D1D1D;
+opacity: 0px;
+
+}
+
+.inputmail input{
+   margin-top: 50px;
+    border: none;
+    background-color: transparent;
+    width: 353px;
+    height: 56px;
+    padding: 10px;
+    border-radius: 98px;
+    border: 1px solid #1D1D1D;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.btnget{
+    margin-top: 50px;
+    width: 170px;
+height: 56px;
+padding: 10px;
+border-radius: 79px;
+background-color: #1D1D1D;
+color: white;
+margin-left: 20px;
+}
+
+.btnget button{
+    border: none;
+
+
+}
+.inputmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 56px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    
+   
+}
+.mainblack{
+    background-color: #1D1D1D;
+    color: white;
+    margin-top: 78px;
+    height:290px;
+    padding: 40px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+
+    z-index: 2;
+}
+.textmove{
+    font-family: Radio Canada;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.5px;
+text-align: left;
+width: 305px;
+height: 74px;
+
+
+}
+.logosfooter{
+  
+font-family: Radio Canada;
+font-size: 25px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+width: 70px;
+height: 60px;
+
+
+}
+.reserved{
+margin-top: 23%;
+font-family: Radio Canada;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+}
+.blacks li{
+    margin-top: 14px;
+    color: white;
+}
+.logoss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:97%;
+    height: 230px;
+    align-items: center;
+    position: absolute;
+    /* top: 50px;
+    left: 50px; */
+    z-index: 1;
+}

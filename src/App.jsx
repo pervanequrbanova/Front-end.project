@@ -16,6 +16,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
+ 
       <Header setIsMenuOpen={setIsMenuOpen} />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,6 +25,14 @@ function App() {
         <Route path="pricing" element={<Pricing />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+      <Footer setIsMenuOpen={setIsMenuOpen}/>
+    {/* <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="courses" element={<Courses />} />
+        <Route path="about" element={<About />} />
+        <Route path="pricing" element={<Pricing />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes> */}
     </>
   );
 }

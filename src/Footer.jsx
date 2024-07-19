@@ -1,31 +1,74 @@
 
 import React from 'react';
-import group48 from "./Group 48.png";
-import group49 from "./Group 49.png";
-function Footer() {
+import { NavLink } from 'react-router-dom';
+import group48 from "./Group 48.1.png";
+import group49 from "./Group 49.1.png";
+import group56 from "./Group 56.png";
+import group57 from "./Group 57.png";
+const Footer = ({ setIsMenuOpen }) => {
   return (
-    <div>
+    <div className='mainf'>
       <div className="mainfooter">
           
-      <span>launch Your Online Learning </span> <i> Platform</i>
-    <span><input type="email" placeholder='Enter your email' /> <button>Get Started</button></span>
+      <span className='launch'>launch Your Online </span> <span><i> Learning</i> <i className='platform'>Platform</i></span>
+    <div className='inputmail'><input type="email" placeholder='Enter your email' /> <button className='btnget'>Get Started</button></div>
+    <div>
+      <ul>
+      <li  className='logoss' >
+        <img src={group56} alt="Logo 1" />
+        <img src={group57} alt="Logo 2" />
+        </li>
+      </ul>
+    </div>
       </div>
-      <div className="mainblack">
+     <div className="container">
+     <div className="mainblack">
+     <div className="mainlogo2">
+     <div className="leftfooter">
       <ul>
       <li>
         <img src={group48} alt="Logo 1" />
         <img src={group49} alt="Logo 2" />
         </li>
-        <li>
+        <li className='textmove'>
             <p>Stay productive on the move, accessing files, apps, mobiles, and servers—no VPN needed.</p>
         </li>
-        <li><span>All rights reserved ® DIGILEARN.com</span>
+        <li className='reserved'><span>All rights reserved ® DIGILEARN.com</span>
       </li>
       </ul>
-      <ul>
-        
-      </ul>
+      </div>
+     </div>
+     <div className="logosfooter">
+     <ul className='blacks'>
+            <li>
+              <NavLink to="/home" onClick={() => setIsMenuOpen(false)} > 
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/courses" onClick={() => setIsMenuOpen(false)}>
+                Courses
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/pricing" onClick={() => setIsMenuOpen(false)}>
+                Pricing
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
+                Contact
+              </NavLink>
+            </li>
+          </ul>
+     </div>
     </div>
+     </div>
     </div>
     
   )
