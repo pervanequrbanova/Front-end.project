@@ -11,6 +11,8 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import { useState } from "react";
 import Header from "./Header";
+import Count from "./Count";
+import Selection from "./Selection";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,6 +27,8 @@ function App() {
         <Route path="pricing" element={<Pricing />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+      <Count/>
+      <Selection/>
       <Footer setIsMenuOpen={setIsMenuOpen}/>
     {/* <Routes>
         <Route path="/" element={<Home />} />
