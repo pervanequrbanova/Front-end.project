@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import group48 from "./Group 48.png";
-import group49 from "./Group 49.png";
-import group50 from "./Group 50.png";
-import group51 from "./Group 51.png";
-import group52 from "./Group 52.png";
-import group53 from "./Group 53.png";
-import group54 from "./Group 54.png";
-import group55 from "./Group 55.png";
+import group48 from "./Images/Group 48.png";
+import group49 from "./Images/Group 49.png";
+import group50 from "./Images/Group 50.png";
+import group51 from "./Images/Group 51.png";
+import group52 from "./Images/Group 52.png";
+import group53 from "./Images/Group 53.png";
+import group54 from "./Images/Group 54.png";
+import group55 from "./Images/Group 55.png";
 const Header = ({ setIsMenuOpen }) => {
   return (
     <div className="headers">

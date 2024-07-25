@@ -1,5 +1,5 @@
 import React from 'react'
-import group60 from "./Group 60.png";
+import group60 from "./Images/Group 60.png";
 function Selection() {
   return (
     <div className='exclusive'>

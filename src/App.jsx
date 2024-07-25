@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
-
+import AdultProfiles from './AdultProfiles';
 import Home from "./Home";
 import Courses from "./Courses";
 import About from "./About";
@@ -13,7 +13,11 @@ import { useState } from "react";
 import Header from "./Header";
 import Count from "./Count";
 import Selection from "./Selection";
-
+import Course_cart from "./Course_cart";
+import ProMemberCourses from "./ProMemberCourses";
+import Powerful from "./Poweful";
+import Learning from "./Learning";
+import Quessions from "./Quessions";
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -29,6 +33,12 @@ function App() {
       </Routes>
       <Count/>
       <Selection/>
+      <Course_cart/>
+      <ProMemberCourses/>
+      <Powerful/>
+      <AdultProfiles />
+      <Learning/>
+      <Quessions/>
       <Footer setIsMenuOpen={setIsMenuOpen}/>
     {/* <Routes>
         <Route path="/" element={<Home />} />
