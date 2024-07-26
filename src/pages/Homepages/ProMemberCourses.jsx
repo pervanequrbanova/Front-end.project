@@ -1,7 +1,7 @@
 import React from 'react';
-import photo1 from "./Images/Photo 1.png";
-import photo2 from "./Images/Photo 2.png";
-import photo3 from "./Images/Photo 3.png";
+import photo1 from "../../Images/Photo 1.png";
+import photo2 from "../../Images/Photo 2.png";
+import photo3 from "../../Images/Photo 3.png";
 const ProMemberCourses = () => {
   return (
     <div className="pro-member-container">

@@ -1,8 +1,8 @@
 import React from 'react';
-import group70 from "./Images/Group 70.png";
-import group71 from "./Images/Group 71.png";
-import group72 from "./Images/Group 72.png";
-import group73 from "./Images/Group 73.png";
+import group70 from "../../Images/Group 70.png";
+import group71 from "../../Images/Group 71.png";
+import group72 from "../../Images/Group 72.png";
+import group73 from "../../Images/Group 73.png";
 
 const Course_cart = () => {
   return (

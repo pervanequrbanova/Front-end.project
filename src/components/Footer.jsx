@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import group48 from "./Images/Group 48.1.png";
-import group49 from "./Images/Group 49.1.png";
-import group56 from "./Images/Group 56.png";
-import group57 from "./Images/Group 57.png";
+import group48 from "../Images/Group 48.1.png";
+import group49 from "../Images/Group 49.1.png";
+import group56 from "../Images/Group 56.png";
+import group57 from "../Images/Group 57.png";
 const Footer = ({ setIsMenuOpen }) => {
   return (
     <div className='mainf'>

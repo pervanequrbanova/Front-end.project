@@ -1,5 +1,5 @@
 import React from 'react'
-import group74 from "./Images/Group 74.png";
+import group74 from "../../Images/Group 74.png";
 function Powerful() {
   return (
    <div className='powerful'>

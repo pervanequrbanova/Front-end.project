@@ -1,6 +1,6 @@
 import React from 'react'
-import group80 from "./Images/Group 80.png";
-import group81 from "./Images/Group 81.png";
+import group80 from "../../Images/Group 80.png";
+import group81 from "../../Images/Group 81.png";
 function Learning() {
   return (
     <div className='container1'>
