@@ -19,30 +19,37 @@ width: 96%;
 padding:2%;
 
 }
+.mainleft{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between; 
+width: 40%;
+height: 20px;
+}
 .mainleft ul{
     display: flex;
     flex-direction: row;
  justify-content: space-between;
-padding-left: 25%;
-
-   gap: 15%;
-
+width: 100%;
 }
  .black{
     font-family: Radio Canada;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 20px;
     text-align: left;
-    color: #1D1D1D;
+    color: black;
+    display: flex;
+    flex-direction: row;
+ justify-content: space-between;
  }
 
 .mainright{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
-    width:20% ; 
-    
+    justify-content: space-evenly;
+ width: 30%;
+ height: 20px;  
 }
 .mainright button{
     border: none;
@@ -51,7 +58,8 @@ padding-left: 25%;
     display: flex;
     flex-direction:row;
     height: 20px;
-    justify-content: space-between;
+    width: 20%;
+ justify-content: center;
 }
 .one{
     border: none;
@@ -1129,3 +1137,36 @@ height: 57px;
 
 
 }
+/* 
+@media (max-width: 576px) {
+  .main {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .mainleft,
+  .mainright {
+      display: none;
+      width: 100%;
+  }
+
+  .mainlogo {
+      width: 100%;
+      justify-content: space-between;
+  }
+
+  .icon {
+      display: block;
+  }
+
+  .mainleft ul,
+  .mainright ul {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .mainleft ul li,
+  .mainright ul li {
+      margin: 10px 0;
+  }
+} */

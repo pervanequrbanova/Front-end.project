@@ -1,6 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+   var mainleft = document.querySelector(".mainleft");
+        var mainright = document.querySelector(".mainright");
 
 const AdultProfiles = () => {
   const [adults, setAdults] = useState([]);
@@ -37,5 +39,19 @@ const AdultProfiles = () => {
         </div>
       );
     };
+
+    
+    function toggleMenu() {
+    
+        
+        if (mainleft.style.display === "block") {
+            mainleft.style.display = "none";
+            mainright.style.display = "none";
+        } else {
+            mainleft.style.display = "block";
+            mainright.style.display = "block";
+        }
+    }
+toggleMenu();
     
     export default AdultProfiles;

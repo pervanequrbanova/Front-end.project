@@ -1,55 +1,20 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import group48 from "../Images/Group 48.png";
-import group49 from "../Images/Group 49.png";
+// import { NavLink } from 'react-router-dom';
+// import group48 from "../Images/Group 48.png";
+// import group49 from "../Images/Group 49.png";
 import group50 from "../Images/Group 50.png";
 import group51 from "../Images/Group 51.png";
 import group52 from "../Images/Group 52.png";
 import group53 from "../Images/Group 53.png";
 import group54 from "../Images/Group 54.png";
 import group55 from "../Images/Group 55.png";
-const Header = ({ setIsMenuOpen }) => {
+import Navbar from "./Navbar";
+function Header(){
   return (
+    
     <div className="headers">
-      <div className="main">
-        <div className="mainleft">
-          <ul className='black'>
-            <li>
-              <NavLink to="/home" onClick={() => setIsMenuOpen(false)}>
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/courses" onClick={() => setIsMenuOpen(false)}>
-                Courses
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/pricing" onClick={() => setIsMenuOpen(false)}>
-                Pricing
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
-                Contact
-              </NavLink>
-            </li>
-          </ul>
-        </div>
-        <div className="mainlogo">
-          <img src={group48} alt="Logo 1" />
-          <img src={group49} alt="Logo 2" />
-        </div>
-        <div className="mainright">
-          <button className="one">Cart</button>
-          <button className="two">Log in</button>
-        </div>
-      </div>
+      <Navbar/>
+  
       <div className="second">
         <div className="logos">
           <h3>Empowering Webflow</h3>
