@@ -1148,7 +1148,7 @@ height: 57px;
   grid-template-columns: 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  width: 100%;
+  width: 90%;
 }
 
 .counts li {
@@ -1160,14 +1160,14 @@ height: 57px;
   display: none;
 }
 .exclusive1{
-  width: 100%;
+  width: 190%;
 }
 .photo{
-  width: 100%;
+  width: 190%;
 margin-top: 50px;
 }
 .join{
-  width: 100%;
+  width: 90%;
 }
 .exclusive{
   display: flex;
