@@ -40,18 +40,4 @@ const AdultProfiles = () => {
       );
     };
 
-    
-    function toggleMenu() {
-    
-        
-        if (mainleft.style.display === "block") {
-            mainleft.style.display = "none";
-            mainright.style.display = "none";
-        } else {
-            mainleft.style.display = "block";
-            mainright.style.display = "block";
-        }
-    }
-toggleMenu();
-    
     export default AdultProfiles;
