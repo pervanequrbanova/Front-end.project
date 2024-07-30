@@ -1,8 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-   var mainleft = document.querySelector(".mainleft");
-        var mainright = document.querySelector(".mainright");
+
 
 const AdultProfiles = () => {
   const [adults, setAdults] = useState([]);

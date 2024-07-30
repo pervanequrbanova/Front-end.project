@@ -1,8 +1,13 @@
 import React from 'react'
-
+import Navbar from '../components/Navbar'
+import Quessions from './Homepages/Quessions'
+import Footer from '../components/Footer'
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>   <Navbar/>
+      <Quessions/>
+      <Footer/>
+      </div>
   )
 }
 
