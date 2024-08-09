@@ -9,9 +9,9 @@ function Selection() {
             <li></li>
             <li></li>
             <li></li>
-            </ul> <h3 > Join us <br /> For <i>Exclusive</i> Courses</h3>
+            </ul> <h3 className='joinss'> Join us <br /> For <i>Exclusive</i> Courses</h3>
             <h3 className='join'> Join us  For <i>Exclusive</i> Courses</h3>
-            <p>Ensure unwavering productivity no matter your location with unencumbered accessibility 
+            <p className='ensume'>Ensure unwavering productivity no matter your location with unencumbered accessibility 
                 to all your essential files and applications. Whether you're working from home, a bustling coffee
                  shop, or even while traveling, you can seamlessly stay on top of your tasks and responsibilities without any hindrance.</p>
         </div>

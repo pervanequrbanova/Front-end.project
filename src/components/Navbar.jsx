@@ -1,15 +1,27 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faBars } from '@fortawesome/free-solid-svg-icons';
+import React,{useState} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom';
 import group48 from "../Images/Group 48.png";
 import group49 from "../Images/Group 49.png";
-import React from 'react';
+// import React from 'react';
 
 
-const Navbar = ({ setIsMenuOpen }) => {
+const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <div className='main'>
-{/* <FontAwesomeIcon icon={faBars} /> */}
+<FontAwesomeIcon icon={faBars} 
+       
+        onClick={toggleMenu} 
+        className='menu-icon' 
+
+id='menu-icon'/>
+
 <div className="mainleft">
 
 <ul className='black'>
@@ -46,6 +58,7 @@ const Navbar = ({ setIsMenuOpen }) => {
 <img src={group49} alt="Logo 2" />
 </div>
 <div className="mainright">
+<i className="fas fa-bars" id="menu-icon"></i>
 <button className="one">Cart</button>
 <button className="two">Log in</button>
 </div>
@@ -57,7 +70,5 @@ const Navbar = ({ setIsMenuOpen }) => {
 }
 
 export default Navbar
-
-
 
 

@@ -11,7 +11,7 @@ const Course_cart = () => {
         <div className="header">
           <h2>What We Covered In The</h2>
           <p>Courses</p>
-          <button>See All Courses &rarr;</button>
+          <button>See All Courses  <i className='arrow'>&rarr;</i></button>
         </div>
         <div className="grid-item email-marketing">
           <span></span>

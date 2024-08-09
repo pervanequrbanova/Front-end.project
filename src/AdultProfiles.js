@@ -25,7 +25,7 @@ const AdultProfiles = () => {
   <h1 className='newest'>Meet With <i> Newest</i>  Students</h1>
           <div className='fakejson1'>
         
-            {adults.map((adult) => (
+            {adults?.map((adult) => (
               <div key={adult.id} style={{ margin: '10px', padding: '10px', borderRadius: '5px' }}>
                 <img src={adult.profileImage} alt="${adult.firstName} " style={{ width: '292px', height: '464px',borderRadius:"25px" }} />
                <div className='fakejson'> <h2>{adult.firstName} </h2>
