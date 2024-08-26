@@ -5,9 +5,12 @@ import Learning from './Homepages/Learning'
 import Quessions from './Homepages/Quessions'
 import Footer from '../components/Footer'
 import Feature from './Homepages/Feature'
+import Menubar from './Homepages/Menubar'
 function Pricing() {
   return (
     <div>
+           <Menubar/>
+
         <Navbar/>
         <Feature/>
       <Count/>

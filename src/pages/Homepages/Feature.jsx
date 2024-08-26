@@ -5,10 +5,10 @@ import React from 'react'
   return (
     <div className='feature'>
          <div className="feature1">
-          <h2><span>Pay Once, Use </span><i>Forever</i></h2>
+          <h2><span>Pay Once, Use </span><i className='forever'>Forever</i></h2>
           <p> Elevate every moment and make a statement of refinement with our premium line. Your satisfaction is not just our goal; it's our commitment. Choose premium, because you deserve nothing but the extraordinary."</p>
          </div>
-    <div className='container'>
+    <div className='containershp'>
       <ul className='menbership'>
         <li>
           <span >Free membership</span>

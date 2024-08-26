@@ -7,12 +7,13 @@ import Navbar from '../components/Navbar';
 import ProMemberCourses from './Homepages/ProMemberCourses';
 import OtherMember from './Homepages/OtherMembers';
 import Decide from './Homepages/Decide';
-
+import Menubar from './Homepages/Menubar';
 
 function Courses() {
   return (
     <div> 
-      
+           <Menubar/>
+
       <Navbar/>
       <Decide/>
       <ProMemberCourses/>

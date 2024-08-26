@@ -1,6 +1,4 @@
 import React,{useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom';
 import group48 from "../Images/Group 48.png";
 import group49 from "../Images/Group 49.png";
@@ -10,17 +8,10 @@ import group49 from "../Images/Group 49.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+ 
   return (
     <div className='main'>
-<FontAwesomeIcon icon={faBars} 
-       
-        onClick={toggleMenu} 
-        className='menu-icon' 
 
-id='menu-icon'/>
 
 <div className="mainleft">
 

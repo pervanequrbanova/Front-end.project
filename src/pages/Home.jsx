@@ -10,6 +10,7 @@ import Quessions from "./Homepages/Quessions";
 import AdultProfiles from '../AdultProfiles';
 import Count from "./Homepages/Count";
 import Footer from "../components/Footer";
+import Menubar from './Homepages/Menubar';
 
 
 import { useState } from "react";
@@ -19,9 +20,9 @@ function Home() {
   return (
     
     <div>
-   
+     <Menubar/>
       <Header setIsMenuOpen={setIsMenuOpen} />
-    
+  
       <Count/>
       <Selection/>
       <Course_cart/>
