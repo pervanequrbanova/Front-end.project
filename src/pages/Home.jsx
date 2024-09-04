@@ -13,15 +13,13 @@ import Footer from "../components/Footer";
 import Menubar from './Homepages/Menubar';
 
 
-import { useState } from "react";
 
 function Home() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     
-    <div>
+    <div >
      <Menubar/>
-      <Header setIsMenuOpen={setIsMenuOpen} />
+      <Header  />
   
       <Count/>
       <Selection/>
@@ -31,7 +29,7 @@ function Home() {
       <AdultProfiles />
       <Learning/>
       <Quessions/>
-      <Footer setIsMenuOpen={setIsMenuOpen}/>
+      <Footer />
     </div>
   )
 }

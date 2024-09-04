@@ -12,7 +12,7 @@ import Navbar from "./Navbar";
 function Header(){
   return (
     
-    <div className="headers">
+<div className="headers">
       <Navbar/>
   
       <div className="second">
@@ -31,16 +31,17 @@ function Header(){
       </div>
       <div className="mainimg">
         <ul className='left'>
-          <li><img src={group53} alt="logo" /></li>
+          <li><img src={group53} alt="logo"  /></li>
           <li><img src={group52} alt="logo" /></li>
         </ul>
-        <img src={group50} alt="Main" />
+        <img src={group50} alt="Main" className='ims' />
         <ul className='right'>
         <li><img src={group55} alt="logo" /></li>
         <li><img src={group54} alt="logo" /></li>
         </ul>
       </div>
     </div>
+
   );
 };
 

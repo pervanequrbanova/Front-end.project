@@ -18,7 +18,7 @@ const MenuBar = () => {
                 <ul className={menuOpen ? 'menu-open' : 'menu-closed'}>
                     <li>
                         <NavLink 
-                            to="/home" 
+                            to="/" 
                             activeClassName="active"
                             onClick={toggleMenu}
                         >

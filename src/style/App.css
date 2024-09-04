@@ -150,6 +150,7 @@ text-align: left;
 
 color: #1D1D1D;
 }
+
 .text span{
     width:175px;
 height:57px;
@@ -233,7 +234,9 @@ border-radius: 110px;
 opacity: 0px;
 
 }
-
+.joinss2{
+  display: none;
+}
 .inputmail input{
    margin-top: 50px;
     border: none;
@@ -377,9 +380,11 @@ color: #1D1D1D;
 .exclusive{
     display: flex;
     flex-direction: row;
+    width: 100%;
+  
 }
 .exclusive1{
-    width:45%;
+    width:100%;
 height: 216px;
 color: #1D1D1D;
 
@@ -391,11 +396,12 @@ letter-spacing: -0.035em;
 text-align: left;
 
 }
+.photo{
+  width: 100%;
+}
 .photo img{
-    width:570px;
+    width:613px;
 height: 422px;
-
-
 }
 .exclusive1 p{
     font-family: Radio Canada;
@@ -442,23 +448,7 @@ padding: 103px 100px 103px 101px;
 background: #FEF6E4;
 }
 
-/* .solids li:nth-of-type(1) {
-  width: 16.23px;
-  border: 3px solid #1D1D1D;
-  transform: rotate(5.7deg);
-}
 
-.solids li:nth-of-type(2) {
-  width: 30.78px;
-  border: 3px solid #1D1D1D;
-  transform: rotate(-28.79deg);
-}
-
-.solids li:nth-of-type(3) {
-  width: 15.56px;
-  border: 3px solid #1D1D1D;
-  transform: rotate(-90.83deg);
-} */
 .courses-container {
     max-width: 1200px;
     margin: 10px auto;
@@ -477,11 +467,11 @@ background: #FEF6E4;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
-    gap: 20px;
+    gap: 30px;
   }
   .header {
-    grid-column: 1 / 3; /* Second and third columns */
-    grid-row: 1 / 2; /* Second row */
+    grid-column: 1 / 3;
+    grid-row: 1 / 2; 
     background-color: #000;
     color: #fff;
    
@@ -546,8 +536,8 @@ opacity: 0px;
   }
   
   .email-marketing {
-    grid-column: 3 / 4; /* First column */
-    grid-row: 1/ 2; /* Second row */
+    grid-column: 3 / 4; 
+    grid-row: 1/ 2; 
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -590,7 +580,6 @@ margin-right: 30px;
     transition: transform 0.3s ease;
     width: 328px;
 height: 367px;
-/* border-radius: 25px ; */
 
   }
     
@@ -810,7 +799,9 @@ text-align: left;
   .course-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
+    width: 90%;
+margin: 0  10px;
   
   }
   .course-grids {
@@ -924,8 +915,10 @@ opacity: 0px;
 .container1 {
   display: grid;
   padding: 20px 40px;
-  grid-template-columns: 1fr 1fr; /* İki sütun, hər biri eyni ölçüdə */
-  gap: 20px; /* Divlər arasında boşluq */
+  grid-template-columns: 1fr 1fr; 
+  width: 90%;
+  margin: 0 10px;
+  gap: 20px; 
 }
 .image-div {
   display: flex;
@@ -939,6 +932,9 @@ opacity: 0px;
 height: 464px;
 border-radius: 25px ;
 
+}
+.leftpowerful h2{
+  display: none;
 }
 .text-div {
   background: #1D1D1D;
@@ -992,15 +988,8 @@ margin-left: 25px;
   display: flex;
   justify-content: center;
 }
-.fakejson{
-  position: absolute;
-  z-index: 0;
-top: 360px;
-display: flex;
-color: white;
-padding: 10px;
-  height: 300px;
-flex-direction: column;
+.joinss2{
+  display: none;
 }
 
 .newest{
@@ -1045,7 +1034,7 @@ color: #1D1D1D;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-height: 603px;
+height: 623px;
 border-radius: 25px;
 background: #F9C365;
 
@@ -1124,13 +1113,19 @@ padding-left: 25px;
 .rightquession{
 
   width: 594px;
-  height: 352px;
-  padding-top: 60px;
+  height: 603px;
   padding-right: 25px;
+  padding-top: 50px;
   display: flex;
+ 
   flex-direction: column;
 
 }
+.rightquession li{
+width: 594px;
+height: 110px;
+}
+
   .rightquession ul{
   display: flex;
   flex-direction:column;
@@ -1153,9 +1148,34 @@ align-items: center;
   }
 .investopiya{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 15px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
+}
+.activeinvestopiya{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.investopiya span{
+  font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+width: 284px;
+height: 30px;
+
+}
+.answer p{
+  font-family: Radio Canada;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  width: 522px;
+height: 57px;
+padding-top: 5px;
 }
 .friendly p{
   font-family: Radio Canada;
@@ -1395,6 +1415,7 @@ letter-spacing: -0.035em;
 text-align: left;
 
 }
+
 .custom{
   width: 20px;
   height: 20px;
@@ -1418,12 +1439,13 @@ text-align: left;
   transform: rotate(-37.79deg);
   margin-bottom: 6px;
 }
+
 .feature{
   width: 100%;
   height: 990px;
 }
 .adult-card {
-  margin: 10px;
+  margin: 0 5px;
   padding: 10px;
   border-radius: 5px;
 }
@@ -1543,6 +1565,15 @@ height: 306px;
 border-radius: 59px ;
 border: 1px solid #1D1D1D;
 }
+.rightcontact label{
+  font-family: Radio Canada;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: -0.035em;
+text-align: left;
+
+}
 .rightcontact button{
   width: 687px;
 height: 56px;
@@ -1652,13 +1683,59 @@ height: 161px;
 color: #1D1D1D;
 
 }
-.fakejson1>img{
+
+.adult-image{
   width: '292px';
    height: '464px';
    border-radius:"25px" ;
+   object-fit: cover;
+}
+
+
+.adult-card {
+  position: relative;
+  width: 292px;
+  height: 464px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.overlay h3{
+  font-family: Radio Canada;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.035em;
+text-align: left;
+
+}
+.overlay p{
+  font-family: Radio Canada;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: -0.035em;
+text-align: left;
+
+}
+
+.even {
+  margin-top: 0px;
+}
+
+.odd {
+  margin-top: 25px;
 }
 .navbar {
-  background-color: #333;
   overflow: hidden;
   position: relative;
 }
@@ -1713,7 +1790,7 @@ color: #1D1D1D;
 
  @media (max-width: 576px) {
   .burger-icon {
-    display: block; /* Mobil cihazda göstərin */
+    display: block; 
 }
 
 .navbar ul {
@@ -1721,11 +1798,11 @@ color: #1D1D1D;
 }
 
 .navbar ul.menu-closed {
-    display: none; /* Menyu bağlıdırsa, gizlədin */
+    display: none; 
 }
 
 .navbar ul.menu-open {
-    display: flex; /* Menyu açıqdırsa, göstərin */
+    display: flex; 
 }
 
 .navbar ul li {
@@ -1734,33 +1811,18 @@ color: #1D1D1D;
   .fakejson1 {
     grid-template-columns: 1fr;
     width: 340px;
-    height: 836px;
+    height: 436px;
     display: flex;
     justify-content:space-between;
     gap: 10px;
   }
 
-  .fakejson1>img{
-    width: '92px';
-     height: '464px';
-     border-radius:"25px" ;
-  }
   .fakejson1 > div {
-    width: 124px;
-    height: 103px;
+    width: 174px;
+    height: 223px;
   }
 
-  .fakejson {
-    padding: 5px;
-  }
 
-  .fakejson h2 {
-    font-size: 1rem;
-  }
-
-  .fakejson p {
-    font-size: 0.9rem;
-  }
   .main {
  
     display: flex;
@@ -1787,6 +1849,12 @@ color: #1D1D1D;
 .second{
   display: flex;
   flex-direction: column;
+  
+  width: 390px;
+height: 592px;
+
+
+  
 }
 .main-logo {
     display: flex;
@@ -1804,10 +1872,13 @@ color: #1D1D1D;
 .counts {
   list-style-type: none;
   display: grid;
-  grid-template-columns: 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  width: 90%;
+  width: 390px;
+height: 218px;
+position: relative;
+top: 300px;
+
 }
 .mainimg img{
   width: 100%;
@@ -1821,9 +1892,7 @@ color: #1D1D1D;
 .counts li:nth-of-type(even) {
   display: none;
 }
-.exclusive1{
-  width: 100%;
-}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1955,22 +2024,65 @@ color: #1D1D1D;
 }
 
 .exclusive{
-  display:block;
-  flex-direction: column-reverse;
-  height: 850px;
+  display: flex;
+  flex-direction: column;
+  height: 554px;
+  width: 390px;
+  margin-top: 190px;
 }
+.exclusive1{
+  width: 360px;
+  height: 200px;
+  display: block;
+}
+.exclusive1 p{
+  font-family: Radio Canada;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: center;
+  width: 306px;
+  height: 147px;
+margin-right: 100px;
+color: #1D1D1D;
+  margin-left: -70px;
+}
+.exclusive1 h3{
+  width: 261px;
+  height:63px;
+border-radius: 110px ;
+}
+.joinss{
+  display: none;
+}
+.joinss2{
+  font-family: Radio Canada;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 31.5px;
+  letter-spacing: -0.035em;
+  text-align: center;
+display: block;
+margin-right: 40px;
+}
+.joinss2 i{
+  width: 112px;
+height: 35px;
+border: 1px solid #1D1D1D;
+font-family: Radley;
+font-size: 25px;
+font-style: italic;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: -0.035em;
+text-align: center;
 
-.exclusive1 p,.joinss{
-  width: 100%;
+
 }
 
 .leftpowerful p{
-  font-family: Radio Canada;
-font-size: 20px;
-font-weight: 400;
-line-height: 24.5px;
-text-align: left;
-width: 356px;
+
+width: 326px;
 height: 98px;
 font-family: Radio Canada;
 font-size: 15px;
@@ -1978,6 +2090,8 @@ font-weight: 400;
 line-height: 19.5px;
 text-align: center;
 color: #1D1D1D;
+display: flex;
+justify-content: center;
 
 }
 .powerful{
@@ -1988,6 +2102,10 @@ color: #1D1D1D;
   padding:15px 50px;
   margin-top: 40px;
   background-color: white;
+}
+.leftpowerful{
+  width: 370px;
+  height: 300px;
 }
 
 .grid-items h3 {
@@ -2012,13 +2130,16 @@ text-align: left;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
 }
 .courses-container {
  
   margin: 10px auto;
   padding: 20px;
   background: #fdfcfdfd;
-  width: 390px;
+  width: 100%;
   height: 752px;
   border-radius: 15px ;
 
@@ -2078,22 +2199,25 @@ height: 40px;
   height: 75px;
   margin-top: -20px;
 }
-
 .leftpowerful h3{
+  display:none;
+}
+.leftpowerful h2{
   font-family: Radio Canada;
   font-size: 25px;
   font-weight: 500;
   line-height: 31.5px;
   letter-spacing: -0.035em;
   text-align: center;
-  width: 281px;
-height: 92px;
+  width: 241px;
+height: 63px;
+display: block;
 }
-.leftpowerful h3 i{
+.leftpowerful h2 i{
   font-family: Radley;
 background-color: #F9C365;
-width: 188px;
-height: 72px;
+width: 92px;
+height: 35px;
 border-radius: 110px ;
 border: 1px solid #1D1D1D;
 font-family: Radley;
@@ -2128,8 +2252,8 @@ height: 194px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 105px;
-  height: 311px;
+  width: 115px;
+  height: 331px;
  border-radius: 15px;
   
 }
@@ -2137,13 +2261,13 @@ height: 194px;
   background: #1D1D1D;
 color: white;
 display: flex;
-justify-content: center;
-width: 263px;
-height: 311px;
-border-radius: 15px ;
+padding: 5px;
+width: 223px;
+height: 331px;
+border-radius: 10px ;
 flex-direction: column;
 font-family: Radio Canada;
-font-size: 15px;
+font-size: 13px;
 font-weight: 500;
 line-height: 18px;
 text-align: left;
@@ -2155,6 +2279,9 @@ font-size: 15px;
 font-weight: 500;
 line-height: 18px;
 text-align: left;
+width: 200px;
+height: 162px;
+
 
 }
 .text-div img{
@@ -2168,7 +2295,15 @@ text-align: left;
   font-weight: 500;
   line-height: 28px;
   text-align: left;
-  
+  width: 112px;
+height: 22px;
+ 
+}
+.left img{
+  display: none;
+}
+.right img{
+  display: none;
 }
 .text-div span{
   font-family: Radio Canada;
@@ -2177,12 +2312,12 @@ text-align: left;
   line-height: 28px;
   letter-spacing: -0.035em;
   text-align: left;
-  
+  width: 88px;
+height: 22px;
 }
 .container2{
 display: flex;
-justify-content: center;
-  display: flex;
+margin-left: 30px;
   flex-direction:column;
   width: 358px;
   height: 726px;
@@ -2190,7 +2325,9 @@ justify-content: center;
 background: #F9C365;
 
 }
-
+.mainf{
+  margin-left: 18px;
+}
 .leftquession h2{
   font-family: Radio Canada;
   font-size: 25px;
@@ -2277,6 +2414,7 @@ line-height: 22.5px;
 text-align: left;
 
   }
+
   .rightquession p{
     width: 287px;
     height: 62px;
@@ -2324,6 +2462,7 @@ width: 46px;
 height: 18px;
 
   }
+
   .mainlogo2{
 
     width: 358px;
@@ -2451,6 +2590,121 @@ padding: 5px;
     height: 112px;
       
   }
+  .adult-image{
+    width: '174px';
+     height: '223px';
+     border-radius:"15px" ;
+     object-fit: cover;
+  }
+  
+  
+  .adult-card {
+    position: relative;
+    width: '174px';
+     height: '223px';
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .overlay {
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .inputmail input{
+    width: 218px;
+height: 40px;
+border-radius: 79px ;
+border: 1px solid #1D1D1D;
+opacity: 0px;
+
+  }
+  .platform{
+    width: 85px;
+height: 35px;
+font-family: Radley;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: -0.035em;
+text-align: center;
+
+border-radius: 110px ;
+border: 1px solid #1D1D1D;
+opacity: 0px;
+
+  }
+  .btnget{
+    width: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 40px;
+font-family: Radio Canada;
+font-size: 16px;
+font-weight: 500;
+line-height: 24.5px;
+text-align: left;
+
+border-radius: 79px ;
+opacity: 0px;
+
+  }
+  .mainfooter span{
+    font-family: Radley;
+font-size: 25px;
+font-style: italic;
+font-weight: 400;
+line-height: 31.5px;
+letter-spacing: -0.035em;
+text-align: center;
+width: 361px;
+margin-top: 5px;
+color: #000;
+height: 46px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+  }
+  .overlay h3{
+    font-family: Radio Canada;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  
+  }
+  .overlay p{
+    font-family: Radio Canada;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  
+  }
+
+  .investopiya{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 380px;
+  }
+  .activeinvestopiya{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
   .unparalled h2{
     width: 266px;
 height: 126px;
@@ -2490,6 +2744,7 @@ letter-spacing: -0.035em;
 text-align: left;
 
   }
+  
   .forever{
     font-family: Radley;
 font-size: 15px;
@@ -2575,6 +2830,9 @@ border-radius: 15px ;
   width: 385px;
 height: 507px;
 
+}
+.mainf{
+  width: 390px;
 }
 .rightcontact input{
   width: 357px;
@@ -2694,6 +2952,28 @@ color: #1D1D1D;
   letter-spacing: -0.035em;
   text-align: center;
   padding: 5px;
+}
+.container1{
+  width: 390px;
+}
+.mainimg img{
+  width: 370px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.mainblack{
+  background-color: #1D1D1D;
+  color: white;
+  margin-top: 78px;
+  margin-left:-5px;
+  height:290px;
+  padding: 20px;
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
 }
 .headr h2{
   color: #F9C365;

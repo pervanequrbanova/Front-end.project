@@ -2,7 +2,6 @@ import React,{useState} from 'react';
 import { NavLink } from 'react-router-dom';
 import group48 from "../Images/Group 48.png";
 import group49 from "../Images/Group 49.png";
-// import React from 'react';
 
 
 const Navbar = () => {
@@ -10,14 +9,16 @@ const Navbar = () => {
 
  
   return (
-    <div className='main'>
+  
+   <div className='container'>
+ <div className='main'>
 
 
 <div className="mainleft">
 
 <ul className='black'>
   <li>
-    <NavLink to="/home" onClick={() => setIsMenuOpen(false)}>
+    <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
       Home
     </NavLink>
   </li>
@@ -57,6 +58,7 @@ const Navbar = () => {
 
 
     </div>
+   </div>
   )
 }
 
